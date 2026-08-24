@@ -7,5 +7,7 @@ $10 Bill: Requires $5 change. Decrement $5 count by 1, increment $10 count by 1.
 $20 Bill: Requires $15 change.
      Prefer giving one $10 bill + one $5 bill. If not available, fall back to three $5 bills.
 If at any point we cannot give the required change, return false. If we finish processing all customers, return true.
-# Time complexity :We iterate through the array once in linear time
-# Space complexity :we only use two integer counters
+# Time complexity 
+We iterate through the array once in linear time
+# Space complexity 
+we only use two integer counters
